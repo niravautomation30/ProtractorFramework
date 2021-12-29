@@ -6,13 +6,13 @@ describe('demo calculator test', function () {
 
         homepage.get('http://juliemr.github.io/protractor-demo/');
 
-        homepage.enterFirstNum('5');
+        homepage.enterFirstNum('3');
 
-        homepage.enterSecondNum('5');
+        homepage.enterSecondNum('2');
 
         homepage.clickGo();
 
-        homepage.verifyResult('10');
+        homepage.verifyResult('5');
 
     });
 });
